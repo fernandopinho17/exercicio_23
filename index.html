@@ -24,7 +24,7 @@
                 </li>
                 <li class="numbers-item">
                     <h4>Seguindo</h4>
-                    <span id="followers"></span>
+                    <span id="following"></span>
                 </li>
             </ul>
             <a href="#" id="link" class="profile-link">Ver no Github</a>
@@ -35,6 +35,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             const nameElement = document.querySelector('#name');
             const usernameElement = document.querySelector('#username');
+            const avatarElement = document.querySelector('#avatar');
             const reposElement = document.querySelector('#repos');
             const followersElement = document.querySelector('#followers');
             const followingElement = document.querySelector('#following');
